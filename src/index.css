@@ -39,9 +39,10 @@ body {
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: hsl(215, 51%, 70%);
+  background-color: hsl(178, 100%, 50%);
+  border-radius: 10px;
 }
 
 .container:hover .overlay {
-  opacity: 0.5;
+  opacity: 0.6;
 }
