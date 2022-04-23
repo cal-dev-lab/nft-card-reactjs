@@ -1,3 +1,47 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+body {
+  background-color: hsl(217, 54%, 11%);
+}
+
+.card-bg {
+  background-color: hsl(216, 50%, 16%);
+}
+
+.soft-blue {
+  color: hsl(215, 51%, 70%);
+}
+
+.hr-blue {
+  width: 100%;
+  height: 0.5px;
+  opacity: 0.3;
+  background-color: hsl(215, 51%, 70%);
+}
+
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+ justify-content: center;
+ align-items: center;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: hsl(215, 51%, 70%);
+}
+
+.container:hover .overlay {
+  opacity: 0.5;
+}
