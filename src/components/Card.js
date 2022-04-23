@@ -37,7 +37,7 @@ const Card = () => {
             
             </div>
 
-            <h3 className='text-xl text-white font-outfit my-4'>
+            <h3 className='text-xl text-white font-outfit mt-6 mb-4'>
               
               <a href='/#' className='hover:text-cyan-300'>
                 
